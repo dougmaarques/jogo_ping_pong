@@ -1,0 +1,57 @@
+body {
+    align-items: center;
+    background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  h1 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 3rem;
+  }
+  
+
+
+
+.botao_iniciar {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 0 gray;
+  color: red;
+  cursor: pointer;
+  height: 80px;
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+  width: 120px;
+}
+
+.botao_iniciar.ativa,
+.botao_iniciar:active {
+  background-color: red;
+  border: 4px solid  red;
+  box-shadow: 3px 3px 0 red inset;
+  color: white;
+  outline: none;
+}
+
+.botao_iniciar.focus,
+.botao_iniciar:focus {
+  outline: none;
+  box-shadow: 1px 1px 10px rgb(229, 255, 0);;
+}
+
+.botao_iniciar.active:focus,
+.botao_iniciar:active:focus {
+  box-shadow: 3px 3px 0 red inset, 1px 1px 10px rgb(229, 255, 0);;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
