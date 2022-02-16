@@ -2,7 +2,9 @@ function setup() {
   createCanvas(700, 400);
 }
 
-function draw() {
+
+
+function draw () {
   background(0);
   mostraBolinha();
   movimentaBolinha();
@@ -14,9 +16,9 @@ function draw() {
   verificaColisaoRaquete(xraqueteOponente,yraqueteOponente);
   movimentaRaqueteOponente();
   incluiPlacar();
-  marcaPonto();
-
+  marcaPonto();   
 }
+
 
 let xbolinha = 300;
 let ybolinha = 200;
